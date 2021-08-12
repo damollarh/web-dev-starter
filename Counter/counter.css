@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    font-family: lato, sans-serif, cursive;
+    text-align: center;
+}
+
+.container {
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(102, 175, 102, 0.1);
+}
+button {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    font-weight: 700;
+    font-family: lato;
+    background-color: bisque;
+}
+#saved{
+    background-color: powderblue;
+
+}
+button:hover{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    font-weight: 700;
+    font-family: lato;
+    color: gray;
+    background-color: red;
+}
